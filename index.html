@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Encuentra canciones para acompañar tu estado de ánimo.">
+  <title>Vibra | Música para cada momento</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#inicio"><span class="brand-icon">♫</span> vibra<span class="brand-dot">.</span></a><span class="header-note">TU MÚSICA, TU MOMENTO <span>✦</span></span></header>
+  <main id="inicio">
+    <section class="intro">
+      <div class="intro-copy"><div class="eyebrow"><span></span> UNA CANCIÓN PARA CADA EMOCIÓN</div><h1>¿Cómo te sientes <em>hoy?</em></h1><p>Elige tu estado de ánimo y descubre canciones que acompañen tu momento.</p><a class="start-link" href="#estados">ENCUENTRA TU VIBRA <span>↘</span></a></div>
+      <div class="art" aria-hidden="true"><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div><div class="record"><div class="record-label"><span>♪</span><small>VIBRA<br>VOL. 01</small></div></div><span class="art-star star-one">✳</span><span class="art-star star-two">✦</span><div class="art-tag">DALE PLAY<br><strong>A TU DÍA.</strong></div></div>
+    </section>
+    <section id="estados" class="moods-section"><div class="section-head"><div><span class="section-label">01 / ELIGE TU ESTADO</span><h2>Tu momento, tu música.</h2><p>Selecciona cómo te sientes para ver tus recomendaciones.</p></div><span class="head-doodle" aria-hidden="true">✽</span></div>
+      <div class="mood-grid" role="group" aria-label="Estados de ánimo">
+        <button class="mood mood-happy" data-mood="alegre" aria-pressed="false"><span class="mood-number">01</span><span class="mood-symbol">☀</span><span class="mood-name">Alegre</span><span class="mood-caption">Para celebrar la vida</span><span class="mood-arrow">↗</span></button>
+        <button class="mood mood-calm" data-mood="relajado" aria-pressed="false"><span class="mood-number">02</span><span class="mood-symbol">☁</span><span class="mood-name">Relajado</span><span class="mood-caption">Baja el ritmo</span><span class="mood-arrow">↗</span></button>
+        <button class="mood mood-focus" data-mood="concentrado" aria-pressed="false"><span class="mood-number">03</span><span class="mood-symbol">✦</span><span class="mood-name">Concentrado</span><span class="mood-caption">Encuentra tu enfoque</span><span class="mood-arrow">↗</span></button>
+        <button class="mood mood-energy" data-mood="energico" aria-pressed="false"><span class="mood-number">04</span><span class="mood-symbol">⚡</span><span class="mood-name">Enérgico</span><span class="mood-caption">Súbele al día</span><span class="mood-arrow">↗</span></button>
+      </div>
+    </section>
+    <section class="results" id="recomendaciones" aria-live="polite"><div class="results-empty"><span class="empty-icon">♫</span><div><span class="section-label">02 / TUS RECOMENDACIONES</span><h2>La música te espera.</h2><p>Elige un estado de ánimo para descubrir tus canciones.</p></div></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#inicio">♫ vibra<span class="brand-dot">.</span></a><p>Hecho para acompañar cada momento. <span>✦</span></p><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+</body>
+</html>
